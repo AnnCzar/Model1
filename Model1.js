@@ -10,7 +10,7 @@ window.addEventListener('load', e => {
         sceneURL: params.load || 'Model1.gltf',
         logicURL: params.logic || 'visual_logic.js',
     });
-    createCameraSwitchButton();
+    // createCameraSwitchButton();
 });
 
 async function createApp({containerId, fsButtonId = null, sceneURL, logicURL = ''}) {
